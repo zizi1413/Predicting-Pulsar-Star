@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Sep  9 09:45:31 2024
-@author: zohrehsamieekadkani
+
 """
 
 #%%   Imports library:
@@ -22,8 +22,8 @@ from keras.optimizers import Adam
 
 #%%   Data Import:
 
-test_data="//Users/zohrehsamieekadkani/Desktop/GitHub/untitled folder 3/pulsar_data_train.csv"
-train_data="//Users/zohrehsamieekadkani/Desktop/GitHub/untitled folder 3/pulsar_data_test.csv"
+test_data="/pulsar_data_train.csv"
+train_data="/pulsar_data_test.csv"
 
 df_test = pd.read_csv(test_data)
 df_train = pd.read_csv(train_data)
